@@ -1,0 +1,15 @@
+.env
+
+node_modules
+
+test-results.xml
+.nyc_output/
+coverage
+
+.idea
+.npmrc
+.DS_Store
+package-lock.json
+
+./test.js
+test.js
