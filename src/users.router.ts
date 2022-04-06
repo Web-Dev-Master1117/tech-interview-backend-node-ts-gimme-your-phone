@@ -3,7 +3,7 @@ import users from "./users.json";
 
 const userRouter = express.Router();
 
-userRouter.get("/", function (req, res, next) {
+userRouter.get("/", async function (req, res, next) {
   res.send(users);
 });
 
